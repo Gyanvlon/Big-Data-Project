@@ -6,6 +6,7 @@
 - Pawan Sharma
 - Gyan Bahadur Tamang
 - Aashish Shrestha
+- Urusha Budhathoki
 
 # Deliverable 1 Climate Data Mining
 
