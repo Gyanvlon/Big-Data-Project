@@ -1,0 +1,46 @@
+Berkeley Earth city panel data dictionary
+
+Original seven attributes
+  dt: observation month, ISO date (first day of month).
+  AverageTemperature: monthly mean temperature in degrees Celsius.
+  AverageTemperatureUncertainty: source-reported uncertainty in Celsius;
+    retain the field without treating it as independent observations or
+    interpreting it as a forecast interval.
+  City: source-native city name (e.g., Peking and Bombay).
+  Country: source-native country name.
+  Latitude: source coordinate with N/S hemisphere suffix.
+  Longitude: source coordinate with E/W hemisphere suffix.
+
+Four joined source attributes from GlobalTemperatures.csv
+  LandAverageTemperature: global monthly mean land temperature, Celsius.
+  LandMaxTemperature: global monthly average maximum land temperature, Celsius.
+  LandMinTemperature: global monthly average minimum land temperature, Celsius.
+  LandAndOceanAverageTemperature: global monthly mean land/ocean temperature, Celsius.
+  Join: many city-month rows to one global month on dt, without adding rows.
+  These are sourced global context, repeated across cities, not new local
+  measurements. All four current-month values are excluded from forecast X.
+
+Derived analytical attributes
+  date: parsed datetime version of dt.
+  city_id: City and Country combined to avoid ambiguous city names.
+  latitude / longitude: numeric signed degrees, south/west negative.
+  year / month: calendar year and month (1-12).
+  climatology: city-calendar-month mean for 1951-1980, in Celsius.
+  baseline_count: available baseline observations per city-calendar-month.
+  anomaly: AverageTemperature minus climatology, in Celsius (regression target).
+  lag1_anomaly: same city's previous calendar-month anomaly, Celsius.
+  lag12_anomaly: same city's anomaly 12 calendar months earlier, Celsius.
+  prior12_mean: mean of preceding 12 anomalies, with at least 9 available.
+  lag1_uncertainty: previous calendar-month reported uncertainty, Celsius.
+  month_sin / month_cos: cyclic encoding of calendar month.
+  time_years: years since January 1981, including fractional month.
+  abs_latitude: absolute latitude in degrees.
+  hemisphere: North or South from numeric latitude.
+  warm_month: 1 if anomaly strictly above +1 C; otherwise 0 (classification
+    target, not a heatwave definition or an international warming target).
+
+Only the eleven documented model features enter the supervised pipelines.
+Current temperature, anomaly, uncertainty, climatology and warm_month are
+excluded from predictors. Derived columns are generated reproducibly in each
+notebook and are not added independent measurements. Source subset and
+provenance are bundled for offline reproduction.
