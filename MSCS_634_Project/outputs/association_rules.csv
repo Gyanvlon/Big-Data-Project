@@ -1,0 +1,3 @@
+antecedents,consequents,support,confidence,lift
+"north, prior_month_warm",warm_anomaly,0.08888888888888889,0.46153846153846156,1.8495789924361354
+prior_month_warm,warm_anomaly,0.11203703703703703,0.45121193287756367,1.8081962430714982

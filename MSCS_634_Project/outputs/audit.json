@@ -1,0 +1,13 @@
+{
+  "records": 20088,
+  "source_attributes": 11,
+  "engineered_attributes": 29,
+  "cities": 27,
+  "missing_temperature": 0,
+  "missing_uncertainty": 0,
+  "duplicates_removed": 0,
+  "invalid_temperatures": 0,
+  "missing_target_rows_excluded": 0,
+  "train_records": 6480,
+  "test_records": 3888
+}

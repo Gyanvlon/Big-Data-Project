@@ -1,0 +1,4 @@
+{
+  "decisiontreeclassifier__max_depth": 8,
+  "decisiontreeclassifier__min_samples_leaf": 50
+}

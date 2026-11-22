@@ -1,0 +1,325 @@
+city_id,month,climatology,baseline_count
+Bangkok | Thailand,1,25.040000000000003,30
+Bangkok | Thailand,2,27.030033333333336,30
+Bangkok | Thailand,3,28.850033333333332,30
+Bangkok | Thailand,4,29.93003333333333,30
+Bangkok | Thailand,5,29.44,30
+Bangkok | Thailand,6,28.56,30
+Bangkok | Thailand,7,27.989966666666668,30
+Bangkok | Thailand,8,27.85006666666667,30
+Bangkok | Thailand,9,27.67006666666667,30
+Bangkok | Thailand,10,27.08,30
+Bangkok | Thailand,11,26.030066666666666,30
+Bangkok | Thailand,12,24.720000000000002,30
+Berlin | Germany,1,-0.5799666666666667,30
+Berlin | Germany,2,0.34996666666666665,30
+Berlin | Germany,3,3.9000666666666666,30
+Berlin | Germany,4,8.239966666666668,30
+Berlin | Germany,5,13.229999999999999,30
+Berlin | Germany,6,17.08993333333333,30
+Berlin | Germany,7,18.3199,30
+Berlin | Germany,8,17.940100000000005,30
+Berlin | Germany,9,14.479966666666666,30
+Berlin | Germany,10,9.639933333333333,30
+Berlin | Germany,11,4.7,30
+Berlin | Germany,12,1.1699999999999997,30
+Bombay | India,1,24.37,30
+Bombay | India,2,24.4099,30
+Bombay | India,3,26.02,30
+Bombay | India,4,27.619933333333332,30
+Bombay | India,5,29.099966666666667,30
+Bombay | India,6,28.349966666666667,30
+Bombay | India,7,27.179966666666665,30
+Bombay | India,8,26.829866666666664,30
+Bombay | India,9,27.179966666666665,30
+Bombay | India,10,28.15,30
+Bombay | India,11,27.679966666666665,30
+Bombay | India,12,25.99996666666667,30
+Cairo | Egypt,1,13.120033333333334,30
+Cairo | Egypt,2,14.769933333333334,30
+Cairo | Egypt,3,17.5401,30
+Cairo | Egypt,4,21.279966666666667,30
+Cairo | Egypt,5,25.040066666666668,30
+Cairo | Egypt,6,27.73,30
+Cairo | Egypt,7,28.36,30
+Cairo | Egypt,8,28.130033333333337,30
+Cairo | Egypt,9,26.13,30
+Cairo | Egypt,10,23.39,30
+Cairo | Egypt,11,19.049899999999997,30
+Cairo | Egypt,12,14.579966666666667,30
+Cape Town | South Africa,1,20.100033333333336,30
+Cape Town | South Africa,2,20.08,30
+Cape Town | South Africa,3,19.210033333333335,30
+Cape Town | South Africa,4,16.799933333333335,30
+Cape Town | South Africa,5,14.430033333333334,30
+Cape Town | South Africa,6,12.840033333333334,30
+Cape Town | South Africa,7,12.06,30
+Cape Town | South Africa,8,12.390066666666666,30
+Cape Town | South Africa,9,13.860033333333332,30
+Cape Town | South Africa,10,15.469933333333334,30
+Cape Town | South Africa,11,17.790033333333334,30
+Cape Town | South Africa,12,19.129933333333334,30
+Chicago | United States,1,-1.3999,30
+Chicago | United States,2,-0.08999999999999998,30
+Chicago | United States,3,3.2099666666666664,30
+Chicago | United States,4,7.5700666666666665,30
+Chicago | United States,5,11.949966666666667,30
+Chicago | United States,6,17.659933333333335,30
+Chicago | United States,7,21.899900000000002,30
+Chicago | United States,8,22.459966666666666,30
+Chicago | United States,9,18.929966666666665,30
+Chicago | United States,10,13.270033333333334,30
+Chicago | United States,11,7.14,30
+Chicago | United States,12,1.5200333333333336,30
+Cordoba | Argentina,1,23.35,30
+Cordoba | Argentina,2,22.37,30
+Cordoba | Argentina,3,20.329966666666667,30
+Cordoba | Argentina,4,16.580033333333333,30
+Cordoba | Argentina,5,13.989966666666668,30
+Cordoba | Argentina,6,10.46,30
+Cordoba | Argentina,7,10.480033333333333,30
+Cordoba | Argentina,8,12.1401,30
+Cordoba | Argentina,9,14.82,30
+Cordoba | Argentina,10,17.469966666666664,30
+Cordoba | Argentina,11,20.490000000000002,30
+Cordoba | Argentina,12,22.2601,30
+Jakarta | Indonesia,1,26.280000000000005,30
+Jakarta | Indonesia,2,26.630066666666668,30
+Jakarta | Indonesia,3,27.120066666666666,30
+Jakarta | Indonesia,4,27.329966666666667,30
+Jakarta | Indonesia,5,27.4599,30
+Jakarta | Indonesia,6,26.93003333333333,30
+Jakarta | Indonesia,7,26.489966666666664,30
+Jakarta | Indonesia,8,26.469966666666668,30
+Jakarta | Indonesia,9,26.5501,30
+Jakarta | Indonesia,10,26.549966666666666,30
+Jakarta | Indonesia,11,26.710033333333335,30
+Jakarta | Indonesia,12,26.4599,30
+Lima | Peru,1,19.960066666666666,30
+Lima | Peru,2,21.049966666666666,30
+Lima | Peru,3,20.740066666666667,30
+Lima | Peru,4,18.829966666666667,30
+Lima | Peru,5,16.74,30
+Lima | Peru,6,15.049933333333334,30
+Lima | Peru,7,14.089966666666667,30
+Lima | Peru,8,13.780066666666666,30
+Lima | Peru,9,13.719933333333334,30
+Lima | Peru,10,14.410033333333333,30
+Lima | Peru,11,16.05,30
+Lima | Peru,12,17.900066666666664,30
+London | United Kingdom,1,3.269966666666667,30
+London | United Kingdom,2,3.650066666666667,30
+London | United Kingdom,3,5.69,30
+London | United Kingdom,4,8.0,30
+London | United Kingdom,5,11.599933333333333,30
+London | United Kingdom,6,14.740033333333335,30
+London | United Kingdom,7,16.510033333333336,30
+London | United Kingdom,8,16.280033333333332,30
+London | United Kingdom,9,14.030033333333334,30
+London | United Kingdom,10,10.4899,30
+London | United Kingdom,11,6.41,30
+London | United Kingdom,12,4.339966666666667,30
+Los Angeles | United States,1,8.990033333333335,30
+Los Angeles | United States,2,10.430033333333334,30
+Los Angeles | United States,3,11.45,30
+Los Angeles | United States,4,13.520000000000001,30
+Los Angeles | United States,5,16.63,30
+Los Angeles | United States,6,20.24996666666667,30
+Los Angeles | United States,7,23.95,30
+Los Angeles | United States,8,23.76,30
+Los Angeles | United States,9,21.68,30
+Los Angeles | United States,10,17.369933333333336,30
+Los Angeles | United States,11,12.740033333333335,30
+Los Angeles | United States,12,9.530033333333334,30
+Madrid | Spain,1,3.5999333333333334,30
+Madrid | Spain,2,4.739966666666667,30
+Madrid | Spain,3,7.029966666666667,30
+Madrid | Spain,4,9.140099999999999,30
+Madrid | Spain,5,13.34,30
+Madrid | Spain,6,17.479966666666666,30
+Madrid | Spain,7,21.25003333333333,30
+Madrid | Spain,8,20.849933333333336,30
+Madrid | Spain,9,17.459999999999997,30
+Madrid | Spain,10,11.910033333333333,30
+Madrid | Spain,11,6.809933333333333,30
+Madrid | Spain,12,3.9299000000000004,30
+Melbourne | Australia,1,19.179966666666665,30
+Melbourne | Australia,2,19.2601,30
+Melbourne | Australia,3,17.469966666666664,30
+Melbourne | Australia,4,13.8999,30
+Melbourne | Australia,5,10.949966666666667,30
+Melbourne | Australia,6,8.860033333333332,30
+Melbourne | Australia,7,7.9901,30
+Melbourne | Australia,8,8.910066666666667,30
+Melbourne | Australia,9,10.679966666666667,30
+Melbourne | Australia,10,12.6699,30
+Melbourne | Australia,11,14.740033333333335,30
+Melbourne | Australia,12,16.99996666666667,30
+Mexico | Mexico,1,12.369933333333334,30
+Mexico | Mexico,2,13.6701,30
+Mexico | Mexico,3,16.32,30
+Mexico | Mexico,4,17.929966666666665,30
+Mexico | Mexico,5,18.72013333333333,30
+Mexico | Mexico,6,18.299966666666666,30
+Mexico | Mexico,7,17.370033333333332,30
+Mexico | Mexico,8,17.519966666666665,30
+Mexico | Mexico,9,16.930033333333334,30
+Mexico | Mexico,10,15.509933333333333,30
+Mexico | Mexico,11,14.1,30
+Mexico | Mexico,12,12.689966666666667,30
+Moscow | Russia,1,-10.390033333333333,30
+Moscow | Russia,2,-9.279966666666667,30
+Moscow | Russia,3,-4.060066666666667,30
+Moscow | Russia,4,4.800066666666667,30
+Moscow | Russia,5,11.960033333333334,30
+Moscow | Russia,6,16.160033333333335,30
+Moscow | Russia,7,17.76,30
+Moscow | Russia,8,16.24996666666667,30
+Moscow | Russia,9,10.770000000000001,30
+Moscow | Russia,10,4.370033333333334,30
+Moscow | Russia,11,-1.860066666666667,30
+Moscow | Russia,12,-6.650033333333334,30
+Nairobi | Kenya,1,16.739866666666664,30
+Nairobi | Kenya,2,17.229966666666666,30
+Nairobi | Kenya,3,17.51996666666667,30
+Nairobi | Kenya,4,16.829933333333333,30
+Nairobi | Kenya,5,16.1601,30
+Nairobi | Kenya,6,15.140066666666666,30
+Nairobi | Kenya,7,14.560033333333333,30
+Nairobi | Kenya,8,14.850033333333332,30
+Nairobi | Kenya,9,15.610000000000001,30
+Nairobi | Kenya,10,16.240033333333333,30
+Nairobi | Kenya,11,16.160033333333335,30
+Nairobi | Kenya,12,16.259966666666667,30
+New Delhi | India,1,14.360000000000001,30
+New Delhi | India,2,17.630033333333333,30
+New Delhi | India,3,23.4,30
+New Delhi | India,4,29.25003333333333,30
+New Delhi | India,5,33.37993333333334,30
+New Delhi | India,6,34.13,30
+New Delhi | India,7,31.08993333333333,30
+New Delhi | India,8,29.740000000000002,30
+New Delhi | India,9,29.26996666666667,30
+New Delhi | India,10,26.25,30
+New Delhi | India,11,20.669966666666667,30
+New Delhi | India,12,15.7,30
+New York | United States,1,-3.19,30
+New York | United States,2,-2.08,30
+New York | United States,3,2.9200333333333335,30
+New York | United States,4,9.229966666666666,30
+New York | United States,5,14.97,30
+New York | United States,6,19.9099,30
+New York | United States,7,22.55003333333333,30
+New York | United States,8,21.66,30
+New York | United States,9,17.579966666666667,30
+New York | United States,10,11.289966666666666,30
+New York | United States,11,5.540066666666666,30
+New York | United States,12,-0.8398666666666667,30
+Paris | France,1,2.94,30
+Paris | France,2,3.9600666666666666,30
+Paris | France,3,6.640033333333333,30
+Paris | France,4,9.379966666666666,30
+Paris | France,5,13.300033333333335,30
+Paris | France,6,16.430033333333334,30
+Paris | France,7,18.289966666666665,30
+Paris | France,8,17.960033333333335,30
+Paris | France,9,15.469966666666666,30
+Paris | France,10,11.129966666666666,30
+Paris | France,11,6.510033333333333,30
+Paris | France,12,3.9600333333333335,30
+Peking | China,1,-4.610033333333334,30
+Peking | China,2,-1.8299333333333334,30
+Peking | China,3,5.110033333333334,30
+Peking | China,4,13.35,30
+Peking | China,5,20.23003333333333,30
+Peking | China,6,24.42,30
+Peking | China,7,26.340066666666665,30
+Peking | China,8,25.140033333333335,30
+Peking | China,9,20.159966666666666,30
+Peking | China,10,13.069966666666666,30
+Peking | China,11,4.590066666666667,30
+Peking | China,12,-2.6,30
+Rio De Janeiro | Brazil,1,25.909966666666666,30
+Rio De Janeiro | Brazil,2,26.67006666666667,30
+Rio De Janeiro | Brazil,3,26.4,30
+Rio De Janeiro | Brazil,4,24.880033333333333,30
+Rio De Janeiro | Brazil,5,23.990000000000002,30
+Rio De Janeiro | Brazil,6,23.410033333333335,30
+Rio De Janeiro | Brazil,7,22.8101,30
+Rio De Janeiro | Brazil,8,22.5199,30
+Rio De Janeiro | Brazil,9,22.120033333333332,30
+Rio De Janeiro | Brazil,10,22.179966666666665,30
+Rio De Janeiro | Brazil,11,22.93003333333333,30
+Rio De Janeiro | Brazil,12,24.3399,30
+Rome | Italy,1,3.35,30
+Rome | Italy,2,4.739866666666667,30
+Rome | Italy,3,7.069966666666668,30
+Rome | Italy,4,10.050066666666668,30
+Rome | Italy,5,14.5901,30
+Rome | Italy,6,18.770033333333334,30
+Rome | Italy,7,21.5501,30
+Rome | Italy,8,21.329966666666667,30
+Rome | Italy,9,17.849966666666667,30
+Rome | Italy,10,12.7101,30
+Rome | Italy,11,8.23,30
+Rome | Italy,12,4.549966666666666,30
+Shanghai | China,1,3.39,30
+Shanghai | China,2,4.8200666666666665,30
+Shanghai | China,3,9.079933333333335,30
+Shanghai | China,4,14.920066666666665,30
+Shanghai | China,5,19.959966666666666,30
+Shanghai | China,6,24.43003333333333,30
+Shanghai | China,7,28.6101,30
+Shanghai | China,8,28.31993333333333,30
+Shanghai | China,9,23.790000000000003,30
+Shanghai | China,10,18.039966666666665,30
+Shanghai | China,11,12.46,30
+Shanghai | China,12,6.219966666666666,30
+Singapore | Singapore,1,25.94,30
+Singapore | Singapore,2,26.4201,30
+Singapore | Singapore,3,26.93996666666667,30
+Singapore | Singapore,4,27.100066666666667,30
+Singapore | Singapore,5,27.60006666666667,30
+Singapore | Singapore,6,27.42,30
+Singapore | Singapore,7,27.040000000000003,30
+Singapore | Singapore,8,26.859966666666665,30
+Singapore | Singapore,9,26.799966666666666,30
+Singapore | Singapore,10,26.670033333333333,30
+Singapore | Singapore,11,26.580033333333336,30
+Singapore | Singapore,12,26.110033333333334,30
+Sydney | Australia,1,19.390033333333335,30
+Sydney | Australia,2,19.790000000000003,30
+Sydney | Australia,3,19.729966666666666,30
+Sydney | Australia,4,18.23,30
+Sydney | Australia,5,16.38993333333333,30
+Sydney | Australia,6,15.039966666666666,30
+Sydney | Australia,7,14.000033333333333,30
+Sydney | Australia,8,14.34,30
+Sydney | Australia,9,15.2401,30
+Sydney | Australia,10,16.280066666666666,30
+Sydney | Australia,11,17.51,30
+Sydney | Australia,12,18.669966666666667,30
+Tokyo | Japan,1,1.5299666666666667,30
+Tokyo | Japan,2,2.4199333333333333,30
+Tokyo | Japan,3,5.6299,30
+Tokyo | Japan,4,11.330033333333335,30
+Tokyo | Japan,5,16.150066666666664,30
+Tokyo | Japan,6,19.840066666666665,30
+Tokyo | Japan,7,23.67,30
+Tokyo | Japan,8,24.940033333333336,30
+Tokyo | Japan,9,20.67006666666667,30
+Tokyo | Japan,10,14.499966666666667,30
+Tokyo | Japan,11,9.230033333333333,30
+Tokyo | Japan,12,4.1399,30
+Toronto | Canada,1,-8.0901,30
+Toronto | Canada,2,-7.669966666666666,30
+Toronto | Canada,3,-2.62,30
+Toronto | Canada,4,5.110100000000001,30
+Toronto | Canada,5,11.670066666666665,30
+Toronto | Canada,6,16.95,30
+Toronto | Canada,7,19.370033333333332,30
+Toronto | Canada,8,18.56996666666667,30
+Toronto | Canada,9,14.550066666666668,30
+Toronto | Canada,10,8.469966666666668,30
+Toronto | Canada,11,2.159966666666667,30
+Toronto | Canada,12,-4.989966666666667,30
