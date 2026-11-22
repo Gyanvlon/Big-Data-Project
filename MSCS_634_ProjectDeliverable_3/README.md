@@ -8,7 +8,7 @@
 - Aashish Shrestha
 - Urusha Budhathoki
 
-# Deliverable 3 Climate Data Mining
+# Residency Day 2: Project Deliverable 3: Classification, Clustering, and Pattern Mining
 
 The dataset is Berkeley Earth's GlobalLandTemperaturesByCity.csv, distributed by Kaggle. The original city file contains 8,599,212 rows and seven attributes; four recorded global temperature fields from GlobalTemperatures.csv are joined by month, giving eleven sourced input attributes. A predefined panel retains 20,088 city-month records across 27 cities from January 1951 to December 2012. Calendar, signed coordinates, climatology and strictly past-only lag features expand the analytical schema to 29 columns. These are derived features rather than extra independent measurements. The dataset fits the record requirement and supports climate-related regression, classification and descriptive pattern discovery.
 
@@ -39,6 +39,24 @@ Cluster 0: 13 cities, mean temperature 11.27 C, seasonal range 21.51 C and warm 
 Apriori retains 2 warm-anomaly rules. The highest lift rule is north, prior_month_warm implies warm_anomaly, with support 0.089, confidence 0.462 and lift 1.850. A sensitivity check at confidence .55 produced no qualifying warm rules; .40 is used for descriptive exploration, not confirmatory inference. Baskets use training observations, with minimum support .08, confidence .40, lift above 1.1 and at most three items. Warm anomaly is the sole consequent, avoiding geographical tautologies. Serial dependence and spatial correlation mean rules are descriptive, not causal or independently significant.
 
 Practical relevance: study climate group differences and persistence, prioritize local monitoring hypotheses and test patterns on independent data. No causal conclusions follow from these models.
+
+## Hyperparameter tuning: method and parameter choices
+
+We use `GridSearchCV` with six combinations: `max_depth` in [3, 5, 8] and `min_samples_leaf` in [20, 50]. Depth limits how many successive splits the tree can make. Minimum leaf size controls how many training observations must support a terminal prediction. Together they compare simpler and more flexible trees while limiting very small leaves in this correlated city-month panel.
+
+Three expanding chronological folds validate 1989–1992, 1993–1996 and 1997–2000 using only earlier training years. Positive-class F1 balances precision and recall for the less frequent warm class. Preprocessing fits within each fold, and the final test period never participates in parameter selection.
+
+The selected depth is **8**, with **50** observations per leaf minimum. This combination has the highest mean validation F1, **0.3127**, among the six candidates (fold standard deviation **0.0461**). Depth 8 permits more detailed interactions than depths 3 or 5, while the larger leaf minimum limits small, potentially unstable groups. These values are best within the searched grid, rather than a claim of a globally optimal tree. The held-out tree F1 is **0.3306**. See `outputs/tree_search.csv` for all candidates.
+
+## Practical applications and limits
+
+- **Warm-event monitoring research:** Logistic regression can help study candidate screening alerts, but its 38.0% recall misses most warm events. A future study should select any alert threshold using training validation and evaluate false alarms, missed events and uncertainty on independent data before operational use.
+- **Comparing local climate behavior:** The cooler, more seasonal group and warmer, less seasonal group provide a basis for comparing monitoring performance across different climates. They do not establish resource needs or representative global climate zones.
+- **Testing persistence hypotheses:** The rule combining a Northern Hemisphere location and a warm previous month has confidence 46.2% and lift 1.850. Researchers can test whether this association persists in newer cities and years. Overlapping rules and serial/spatial dependence prevent treating it as causal evidence.
+
+
+## Visualizations
+show in on output screenshot
 
 ## Challenges and decisions
 

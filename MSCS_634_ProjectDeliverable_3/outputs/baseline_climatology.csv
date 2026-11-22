@@ -4,7 +4,7 @@ Bangkok | Thailand,2,27.030033333333336,30
 Bangkok | Thailand,3,28.850033333333332,30
 Bangkok | Thailand,4,29.93003333333333,30
 Bangkok | Thailand,5,29.44,30
-Bangkok | Thailand,6,28.56,30
+Bangkok | Thailand,6,28.560000000000002,30
 Bangkok | Thailand,7,27.989966666666668,30
 Bangkok | Thailand,8,27.85006666666667,30
 Bangkok | Thailand,9,27.67006666666667,30
@@ -13,7 +13,7 @@ Bangkok | Thailand,11,26.030066666666666,30
 Bangkok | Thailand,12,24.720000000000002,30
 Berlin | Germany,1,-0.5799666666666667,30
 Berlin | Germany,2,0.34996666666666665,30
-Berlin | Germany,3,3.9000666666666666,30
+Berlin | Germany,3,3.900066666666667,30
 Berlin | Germany,4,8.239966666666668,30
 Berlin | Germany,5,13.229999999999999,30
 Berlin | Germany,6,17.08993333333333,30
@@ -22,7 +22,7 @@ Berlin | Germany,8,17.940100000000005,30
 Berlin | Germany,9,14.479966666666666,30
 Berlin | Germany,10,9.639933333333333,30
 Berlin | Germany,11,4.7,30
-Berlin | Germany,12,1.1699999999999997,30
+Berlin | Germany,12,1.1700000000000002,30
 Bombay | India,1,24.37,30
 Bombay | India,2,24.4099,30
 Bombay | India,3,26.02,30
@@ -47,7 +47,7 @@ Cairo | Egypt,9,26.13,30
 Cairo | Egypt,10,23.39,30
 Cairo | Egypt,11,19.049899999999997,30
 Cairo | Egypt,12,14.579966666666667,30
-Cape Town | South Africa,1,20.100033333333336,30
+Cape Town | South Africa,1,20.100033333333332,30
 Cape Town | South Africa,2,20.08,30
 Cape Town | South Africa,3,19.210033333333335,30
 Cape Town | South Africa,4,16.799933333333335,30
@@ -70,7 +70,7 @@ Chicago | United States,8,22.459966666666666,30
 Chicago | United States,9,18.929966666666665,30
 Chicago | United States,10,13.270033333333334,30
 Chicago | United States,11,7.14,30
-Chicago | United States,12,1.5200333333333336,30
+Chicago | United States,12,1.5200333333333333,30
 Cordoba | Argentina,1,23.35,30
 Cordoba | Argentina,2,22.37,30
 Cordoba | Argentina,3,20.329966666666667,30
@@ -78,7 +78,7 @@ Cordoba | Argentina,4,16.580033333333333,30
 Cordoba | Argentina,5,13.989966666666668,30
 Cordoba | Argentina,6,10.46,30
 Cordoba | Argentina,7,10.480033333333333,30
-Cordoba | Argentina,8,12.1401,30
+Cordoba | Argentina,8,12.140099999999999,30
 Cordoba | Argentina,9,14.82,30
 Cordoba | Argentina,10,17.469966666666664,30
 Cordoba | Argentina,11,20.490000000000002,30
@@ -89,9 +89,9 @@ Jakarta | Indonesia,3,27.120066666666666,30
 Jakarta | Indonesia,4,27.329966666666667,30
 Jakarta | Indonesia,5,27.4599,30
 Jakarta | Indonesia,6,26.93003333333333,30
-Jakarta | Indonesia,7,26.489966666666664,30
+Jakarta | Indonesia,7,26.489966666666668,30
 Jakarta | Indonesia,8,26.469966666666668,30
-Jakarta | Indonesia,9,26.5501,30
+Jakarta | Indonesia,9,26.550099999999997,30
 Jakarta | Indonesia,10,26.549966666666666,30
 Jakarta | Indonesia,11,26.710033333333335,30
 Jakarta | Indonesia,12,26.4599,30
@@ -112,7 +112,7 @@ London | United Kingdom,2,3.650066666666667,30
 London | United Kingdom,3,5.69,30
 London | United Kingdom,4,8.0,30
 London | United Kingdom,5,11.599933333333333,30
-London | United Kingdom,6,14.740033333333335,30
+London | United Kingdom,6,14.740033333333333,30
 London | United Kingdom,7,16.510033333333336,30
 London | United Kingdom,8,16.280033333333332,30
 London | United Kingdom,9,14.030033333333334,30
@@ -159,10 +159,10 @@ Mexico | Mexico,1,12.369933333333334,30
 Mexico | Mexico,2,13.6701,30
 Mexico | Mexico,3,16.32,30
 Mexico | Mexico,4,17.929966666666665,30
-Mexico | Mexico,5,18.72013333333333,30
+Mexico | Mexico,5,18.720133333333333,30
 Mexico | Mexico,6,18.299966666666666,30
 Mexico | Mexico,7,17.370033333333332,30
-Mexico | Mexico,8,17.519966666666665,30
+Mexico | Mexico,8,17.51996666666667,30
 Mexico | Mexico,9,16.930033333333334,30
 Mexico | Mexico,10,15.509933333333333,30
 Mexico | Mexico,11,14.1,30
@@ -177,7 +177,7 @@ Moscow | Russia,7,17.76,30
 Moscow | Russia,8,16.24996666666667,30
 Moscow | Russia,9,10.770000000000001,30
 Moscow | Russia,10,4.370033333333334,30
-Moscow | Russia,11,-1.860066666666667,30
+Moscow | Russia,11,-1.8600666666666668,30
 Moscow | Russia,12,-6.650033333333334,30
 Nairobi | Kenya,1,16.739866666666664,30
 Nairobi | Kenya,2,17.229966666666666,30
@@ -219,7 +219,7 @@ Paris | France,1,2.94,30
 Paris | France,2,3.9600666666666666,30
 Paris | France,3,6.640033333333333,30
 Paris | France,4,9.379966666666666,30
-Paris | France,5,13.300033333333335,30
+Paris | France,5,13.300033333333333,30
 Paris | France,6,16.430033333333334,30
 Paris | France,7,18.289966666666665,30
 Paris | France,8,17.960033333333335,30
@@ -242,7 +242,7 @@ Peking | China,12,-2.6,30
 Rio De Janeiro | Brazil,1,25.909966666666666,30
 Rio De Janeiro | Brazil,2,26.67006666666667,30
 Rio De Janeiro | Brazil,3,26.4,30
-Rio De Janeiro | Brazil,4,24.880033333333333,30
+Rio De Janeiro | Brazil,4,24.880033333333337,30
 Rio De Janeiro | Brazil,5,23.990000000000002,30
 Rio De Janeiro | Brazil,6,23.410033333333335,30
 Rio De Janeiro | Brazil,7,22.8101,30
@@ -257,7 +257,7 @@ Rome | Italy,3,7.069966666666668,30
 Rome | Italy,4,10.050066666666668,30
 Rome | Italy,5,14.5901,30
 Rome | Italy,6,18.770033333333334,30
-Rome | Italy,7,21.5501,30
+Rome | Italy,7,21.550099999999997,30
 Rome | Italy,8,21.329966666666667,30
 Rome | Italy,9,17.849966666666667,30
 Rome | Italy,10,12.7101,30
@@ -268,7 +268,7 @@ Shanghai | China,2,4.8200666666666665,30
 Shanghai | China,3,9.079933333333335,30
 Shanghai | China,4,14.920066666666665,30
 Shanghai | China,5,19.959966666666666,30
-Shanghai | China,6,24.43003333333333,30
+Shanghai | China,6,24.430033333333334,30
 Shanghai | China,7,28.6101,30
 Shanghai | China,8,28.31993333333333,30
 Shanghai | China,9,23.790000000000003,30
@@ -307,7 +307,7 @@ Tokyo | Japan,5,16.150066666666664,30
 Tokyo | Japan,6,19.840066666666665,30
 Tokyo | Japan,7,23.67,30
 Tokyo | Japan,8,24.940033333333336,30
-Tokyo | Japan,9,20.67006666666667,30
+Tokyo | Japan,9,20.670066666666667,30
 Tokyo | Japan,10,14.499966666666667,30
 Tokyo | Japan,11,9.230033333333333,30
 Tokyo | Japan,12,4.1399,30
