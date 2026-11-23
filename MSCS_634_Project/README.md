@@ -8,11 +8,11 @@
 - Aashish Shrestha
 - Urusha Budhathoki
 
-# MSCS_634_Projec Climate Data Mining
+# MSCS_634_Project Climate Data Mining
 
 **GitHub repository:** [Gyanvlon/Big-Data-Project](https://github.com/Gyanvlon/Big-Data-Project)
 
-presentation Link https://somup.com/cOXroyVfahL
+Presentation Link https://somup.com/cOXroyVfahL
 
 The dataset is Berkeley Earth's GlobalLandTemperaturesByCity.csv, distributed by Kaggle. The original city file contains 8,599,212 rows and seven attributes; four recorded global temperature fields from GlobalTemperatures.csv are joined by month, giving eleven sourced input attributes. A predefined panel retains 20,088 city-month records across 27 cities from January 1951 to December 2012. Calendar, signed coordinates, climatology and strictly past-only lag features expand the analytical schema to 29 columns. These are derived features rather than extra independent measurements. The dataset fits the record requirement and supports climate-related regression, classification and descriptive pattern discovery.
 
@@ -80,32 +80,8 @@ Use local anomalies for comparisons across climates. Maintain chronological spli
 - `Final_Report.pdf`: professionally formatted 15-page report with numbered sections, a table of contents, results tables, figure captions, and page numbers.
 - `Final_Report.docx`: editable Word version with the same report content, charts, dataset/repository links, and automatic page-number fields.
 - `Presentation_Slides.pdf`: eight slides.
-- `Presentation_Script.txt`: 5-7-minute narration to rehearse and record.
 
 The project repository is [Gyanvlon/Big-Data-Project](https://github.com/Gyanvlon/Big-Data-Project), as supplied by the project owner. Upload of the latest files, instructor access, and course submission have not been verified. The Deliverable 4 requirements supplied for this review do not explicitly require a video, a presentation duration, or a slide count. Slides and narration are supporting materials; check any separate instructor presentation instructions before treating a recording as mandatory.
-
-## Deliverable 4 requirements checklist
-
-Checked against the Residency Day 3 requirements supplied on November 22, 2026. Checked content items indicate that the requested material is present, not a guarantee of a grade.
-
-- [x] Identify the dataset and explain why it was chosen: report pages 3-4 and the notebook introduction.
-- [x] Explain preprocessing, EDA findings, and feature engineering: report pages 4-6; notebook preparation and interpretation sections.
-- [x] Present regression methods, evaluation, and findings: report pages 7-8 and notebook regression section.
-- [x] Present classification methods, evaluation, and findings: report page 9 and notebook classification section.
-- [x] Present clustering methods and findings: report page 10 and notebook city clustering section.
-- [x] Present association rule mining methods and findings: report page 11 and notebook association rules section.
-- [x] Summarize final insights and practical recommendations: report pages 12-14 and notebook final sections.
-- [x] Discuss privacy, fairness, potential dataset/model bias, and steps taken to address them: report page 13 and notebook ethics section.
-- [x] Include clear supporting visualizations: 12 embedded notebook PNG outputs and 8 image placements in the report. The rebuilt 15-page report was rendered and reviewed for page layout, with contents-page locations verified.
-- [x] Include a consolidated, commented Jupyter notebook: `Deliverable_4.ipynb`. All 7 code cells have saved execution counts and no saved error outputs; all 7 code cells were subsequently rerun in order in a temporary directory, and the main result tables matched the saved outputs.
-- [x] Include a README summarizing the dataset, project steps, and major findings: this file.
-- [x] Include a comprehensive PDF or Word report: `Final_Report.pdf` (15 pages), containing a title page/introduction, preparation, modeling, evaluation, insights, ethics, recommendations, and references. PDF alone satisfies the stated format requirement.
-- [x] Provide the GitHub repository link: [Gyanvlon/Big-Data-Project](https://github.com/Gyanvlon/Big-Data-Project) (supplied by the project owner).
-- [ ] Verify that the repository contains the latest notebook, README, report, data, and dependencies needed to reproduce the work.
-- [ ] Verify that the repository is public or the instructor has access.
-- [ ] Submit the actual GitHub repository link through the course submission system.
-
-Supporting presentation files are available, including an eight-slide PDF and a separate ten-slide PowerPoint with matching narration. The pasted requirements specify neither format nor count; choose a consistent slide/script pair if presenting.
 
 Validation limitation: `Project/verify_project.py` passed saved notebook execution, data hash, cross-deliverable output consistency, chronology, and archive integrity checks, then stopped on missing `MSCS_634_ProjectDeliverable_1/outputs/anomaly_trend.png`. The full project verification therefore has not passed. Its final recorded-video reminder also reflects an additional requirement not stated in the supplied Deliverable 4 text.
 
